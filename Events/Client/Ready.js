@@ -1,8 +1,8 @@
 const { Client } = require("discord.js")
 const ms = require("ms")
 const mongoose = require("mongoose")
-const mongodbURL = "mongodb+srv://Viplol:seeviplol@viplol.l2kroyc.mongodb.net/test"
-
+const mongodbURL = "mongodb+srv://BullDoze:pzOBVOJyhJH4w2s4@cluster0.dmhva7m.mongodb.net/?retryWrites=true&w=majority"
+ //changing the mongodb
 module.exports = {
     name:"ready",
     
