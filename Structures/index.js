@@ -13,6 +13,7 @@ const client = new Client({
     intents: 131071,
     partials: [Channel, GuildMember, Message, ThreadMember, User, GuildScheduledEvent],
     allowedMentions: {parse: ["everyone", "roles", "users"]},
+    rest: { timeout: ms("1m") }
 })
 
 client.events = new Collection()
