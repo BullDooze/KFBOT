@@ -7,7 +7,7 @@ const Ascii = require("ascii-table");
 const { AssertionError } = require("assert");
 require("dotenv").config()
 const { Channel, GuildMember, Message, Reaction, ThreadMember, User, GuildScheduledEvent } = Partials;
-const keepAlive = require(`../server`)
+
 //Hi hi /i cant see any files except this sus works now?
 const client = new Client({
     intents: 131071,
@@ -27,4 +27,4 @@ Handlers.forEach(handler => {
 module.exports = client
 
 client.login('MTAzNTE1Mjg5MTEyOTg4ODg5OQ.GQ54Yj.NPVZSZufzgSQT8bekYLY2ByqLx2FlVA0p6d070')
-keepAlive()
+
